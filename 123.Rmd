@@ -1,5 +1,5 @@
 ---
-title: '1'
+title: '555'
 output: html_document
 ---
 
@@ -25,4 +25,20 @@ You can also embed plots, for example:
 plot(pressure)
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+```{r}
+a <- 2
+a = 2 # = 與 <-同義
+```
+
+```{r}
+3 -> b
+```
+
+```{r}
+library(googlesheets4)
+```
+```{r}
+install.packages(c("dplyr", "lubridate"))
+
+```
+
